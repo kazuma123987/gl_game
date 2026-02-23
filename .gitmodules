@@ -1,0 +1,6 @@
+[submodule "src/tools/glfw3"]
+	path = src/tools/glfw3
+	url = https://github.com/glfw/glfw.git
+[submodule "src/tools/freetype"]
+	path = src/tools/freetype
+	url = https://github.com/aseprite/freetype2.git

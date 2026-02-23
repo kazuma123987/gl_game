@@ -2,6 +2,9 @@
 #define __TEXTRENDER__H
 #include <vector>
 #include <map>
+#ifndef _AMD64_
+#define _AMD64_
+#endif
 #include <stringapiset.h>
 #include "ft2build.h"
 #include FT_FREETYPE_H
