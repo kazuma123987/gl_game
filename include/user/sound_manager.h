@@ -3,7 +3,7 @@
 #include <unordered_map>
 #include <string>
 #include <vector>
-#include "fmod/fmod.h"
+#include "fmod.h"
 // Fmod每个channel只能播放一个sound,channel有各种模式可供设置(循环播放模式、3D播放模式等)
 // 一个sound可以同时在多个channel上播放,fmod的一切资源都由fmod_system管理
 // 方案:sounds由一个哈希表管理,channel由channelgroup管理,环境声和音效由不同的channelgroup管理
